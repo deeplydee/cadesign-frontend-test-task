@@ -1,0 +1,10 @@
+.header {
+	margin-top: 46px;
+	margin-right: 14.9%;
+	margin-left: 14.9%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background-color: #ffffff;
+}

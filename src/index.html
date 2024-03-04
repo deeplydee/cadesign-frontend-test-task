@@ -5,5 +5,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 	</head>
-	<body></body>
+	<body class="page">
+		<header class="header">
+			<div class="header__logo">
+				<img
+					class="header__logo-image"
+					src="<%=require('./images/header-logo.svg')%>"
+					alt="Лого КАДизайн"
+				/>
+			</div>
+			<nav class="header__menu">
+				<ul class="header__menu-list">
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">О нас</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Наши ценности</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Вакансии</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Начало карьеры</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Контакты</a>
+					</li>
+					<li class="header__menu-item header__menu-item_dropdown">
+						<a href="#" class="header__menu-link">Социальные сети &#9662;</a>
+						<div class="header__dropdown">
+							<a href="#" class="header__dropdown-link"
+								><img src="<%=require('./images/vk.svg')%>" alt="Вконтакте"
+							/></a>
+							<a href="#" class="header__dropdown-link"
+								><img src="<%=require('./images/ok.svg')%>" alt="Одноклассники"
+							/></a>
+							<a href="#" class="header__dropdown-link"
+								><img src="<%=require('./images/fb.svg')%>" alt="Фейсбук"
+							/></a>
+							<a href="#" class="header__dropdown-link"
+								><img src="<%=require('./images/instagram.svg')%>" alt="Инстаграм"
+							/></a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</body>
 </html>
